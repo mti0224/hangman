@@ -26,6 +26,7 @@ For the most-recent production version:
 For our develop version which will be released next:
 <http://easygui.readthedocs.org/en/develop>.
 
+
 ========================================================================
 0.98.0
 ========================================================================
@@ -46,6 +47,7 @@ ENHANCEMENTS
  * Refactored the easygui.py file into several smaller files to improve our ability to manage the code
  * Added callbacks to allow for more dynamic dialogs.  See the docs for usage.
  * Added class access to dialogs so properties may be changed.
+ * in integerbox, allowed lower and upper bounds to be None which means they aren't checked.
 
 KNOWN ISSUES
 ------------
